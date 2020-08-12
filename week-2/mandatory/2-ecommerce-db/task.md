@@ -4,10 +4,9 @@ In this homework, you are going to work with an ecommerce database. In this data
 
 ## Submission
 
-Below you will find a set of tasks for you to complete to set up a databases of students and mentors.
+Below you will find a set of tasks for you to complete to set up a database for an e-commerce app.
 
 To submit this homework write the correct commands for each question here:
-
 ```sql
 
 
@@ -29,7 +28,7 @@ Import the file [`cyf_ecommerce.sql`](./cyf_ecommerce.sql) in your newly created
 psql -d cyf_ecommerce -f cyf_ecommerce.sql
 ```
 
-Open the file `cyf_ecommerce.sql` in VSCode and make sure you understand all the SQL code. Take a piece of paper and draw the database with the different relations between tables. Identify the foreign keys and make sure you understand the full database schema.
+Open the file `cyf_ecommerce.sql` in VSCode and examine the SQL code. Take a piece of paper and draw the database with the different relationships between tables (as defined by the REFERENCES keyword in the CREATE TABLE commands). Identify the foreign keys and make sure you understand the full database schema.
 
 ## Task
 
