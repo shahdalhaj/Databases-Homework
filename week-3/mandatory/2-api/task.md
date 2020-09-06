@@ -24,7 +24,7 @@ In the following homework, you will create new API endpoints in the NodeJS appli
 
 - Add a new PUT endpoint `/customers/:customerId` to update an existing customer (name, address, city and country).
 
-- Add a new DELETE endpoint `/orders/:orderId` to delete an existing order along all the associated order items.
+- Add a new DELETE endpoint `/orders/:orderId` to delete an existing order along with all the associated order items.
 
 - Add a new DELETE endpoint `/customers/:customerId` to delete an existing customer only if this customer doesn't have orders.
 
